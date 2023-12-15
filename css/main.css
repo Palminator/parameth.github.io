@@ -1,0 +1,80 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 24px;
+}
+
+.avatar {
+  width: 210px;
+  height: 210px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  object-fit: cover; /* ทำให้รูปไม่โดนบีบ */
+  box-shadow: 10px 10px 10px 0px black;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgb(197, 197, 238),
+      rgba(113, 113, 122, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1566837945700-30057527ade0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+
+
+.contact {
+  margin-bottom: 48px;
+}
+
+.contact-item {
+  margin-bottom: 4px;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 48px;
+    }
+
+    .name{
+        font-size: 36px;
+    }
+}
